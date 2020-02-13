@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
 
 }
 header, section{
    max-width: 900px;
     margin: 0px auto;
-    
+
 }
 header img{
     width: auto;
@@ -40,7 +40,7 @@ nav ul a:hover{
 }
 .text-1{
     height: 250px;
- 
+
 }
 .text-1 *{
     padding: 10px;
@@ -76,16 +76,16 @@ section .grid-container-1 {
     grid-gap: 10px;
     grid-template-columns: repeat(3 , 300);
     grid-template-rows: repeat(2 , 300);
-    grid-template-areas: 
-    "table-1 table-1 table-2" 
+    grid-template-areas:
+    "table-1 table-1 table-2"
     "table-1 table-1 table-3";
   }
 
-.table-1{ 
-    grid-area: table-1; 
+.table-1{
+    grid-area: table-1;
 }
-.table-2{ 
-    grid-area: table-2; 
+.table-2{
+    grid-area: table-2;
 }
   .table-3{
       grid-area: table-3;
@@ -121,13 +121,13 @@ section .grid-container-1 {
     grid-template-rows: 1fr;
     grid-template-areas: "table__1 table__2 table__3";
   }
-  
+
   .table__1 { grid-area: table__1; }
-  
+
   .table__2 { grid-area: table__2; }
-  
+
   .table__3 { grid-area: table__3; }
-  
+
   .tb-dec{
       padding: 0 0 0 20px ;
   }
@@ -139,18 +139,18 @@ section .grid-container-1 {
     grid-template-rows: 1fr;
     grid-template-areas: "chair-dec chair-img";
   }
-  
-  .chair-img { 
+
+  .chair-img {
       grid-area: chair-img;
- 
+
  }
  .chair-img img{
     margin-top: 75px;
      width: 100%;
      height: 100%;
  }
-  .chair-dec { 
-      grid-area: chair-dec; 
+  .chair-dec {
+      grid-area: chair-dec;
 }
 .chair-dec h4{
     font-size: 20px;
@@ -172,22 +172,22 @@ section .grid-container-1 {
     grid-template-rows: 1fr;
     grid-template-areas: "decount delivery stories";
   }
-  
+
   .decount { grid-area: decount;
         border: 1px solid  #B2BABB;
         padding: 20px;
         width: 180px;
         height: 120px;
-       
+
 }
-  
-  .delivery { grid-area: delivery; 
+
+  .delivery { grid-area: delivery;
     border: 1px solid  #B2BABB;
     padding: 20px;
     width: 180px;
     height: 120px;
 }
-  
+
   .stories { grid-area: stories;
     border: 1px solid #B2BABB;
     padding: 20px;
@@ -203,4 +203,13 @@ section .grid-container-1 {
 i{
     width: 50px;
     height: 50px;
+}
+
+button{
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin:120px;
+  color: white;
+  background-color: red;
 }
